@@ -1,0 +1,310 @@
+<!DOCTYPE html> <!--On précise que c'est un document Html-->
+<html>
+	<head>
+		<title>Sub'Evasion-Nous Contacter</title> <!--J'ai rajouté une majuscule car l'espace était mieux repatis dans l'onglet-->
+			<meta charset="utf-8"/> <!--On indique la nature du document et les caractères spéciaux, tel que les accents-->
+
+			<meta name="description" content="Sub'Evasion est un club de plongée sous-marine rassemblant passionnés débutants et chevronnés. Plongeons ensemble dans la joie la bonne humeur et les bulles!">
+			<meta name="keywords" content="Plongée sous-marine,club de plongée,sous-marin,poissons,FFESSM,CMAS,bouteilles,mer,océan,sport aquatique,bulles,palmes,masques,tubas,requins,baleines,corail">
+			<!-- Lien vers la feuille CSS-->
+			<link rel='stylesheet' href='feuilledestyle.css' type='text/css' />
+
+			<script src="https://kit.fontawesome.com/2b9bc48a55.js" crossorigin="anonymous"></script> <!--Restons fidèles à font awesome!-->
+
+			 <!-- Compiled and minified CSS -->
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!--Google Fonts liens-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+               
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+
+            			<!--Balisage CSS suplémentaire-->
+			<style>
+				body{
+					font-family:Mitr;
+          background-color: #e8eaf6;
+          color:#1565c0;
+				}
+
+        .navbar{
+           font-family:Righteous;
+         }
+         /*Test du bouton jour nuit!*/
+        .dark {
+            background-color:#1565c0 ;
+            color: #e8eaf6;
+          }
+          .dark button {
+            background-color:#1565c0 ;
+            color: #e8eaf6;
+          }
+
+            #Contact{
+			width:80%;
+			display:block;
+			margin:auto;
+		            }
+
+				@media screen and (max-width: 670px){
+					header{
+						min-height: 500px;
+						}
+					}
+				.parallax{
+					z-index:2;
+					}
+                h5{
+                    color:white;
+                }
+        /*On commence a changé la couleur du formulaire bwouin!*/
+        .select{
+			color:#bdbdbd ;
+			background-color:#bdbdbd ;
+		}
+		.select-wrapper input.select-dropdown:focus {
+			border-bottom: 1px solid #bdbdbd ;
+			color:#bdbdbd ;
+		}
+		.select-wrapper{
+			color:#bdbdbd ;
+		}
+		
+		.select-wrapper input.select-dropdown{
+			color:#bdbdbd ;
+		}
+		 input::-moz-selection {
+        color:#bdbdbd ;
+        background-color: #eee;
+      }
+      input::selection {
+        color: #bdbdbd ;
+        background-color: #eee;
+      }
+      textarea::-moz-selection {
+        color: white;
+        background-color: #bdbdbd ;
+      }
+      textarea::selection {
+        color: white;
+        background-color: #bdbdbd ;
+      }
+	  
+	    /* label color */
+   .input-field label {
+     color: #bdbdbd ;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #bdbdbd ;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #bdbdbd ;
+     box-shadow: 0 1px 0 0 #bdbdbd ;
+   }
+      /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #bdbdbd ;
+     box-shadow: 0 1px 0 0 #bdbdbd ;
+   }
+      /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #bdbdbd ;
+   }
+   .input-field .label.active{
+		color: #bdbdbd ;
+   }
+
+   .dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color:#616161 ;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+/*Attention les gros blocs des lignes arrivent!*/
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #bdbdbd;
+  -webkit-box-shadow: 0 1px 0 0 #bdbdbd;
+          box-shadow: 0 1px 0 0 #bdbdbd;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #bdbdbd;
+}
+			
+			</style>
+	</head>
+    <Body>
+
+        <header>
+			
+			<!--navbar-->
+	 <div class="navbar">
+		<nav class="nav-wrapper light-blue darken-4">
+		  <div class="container">
+		  <a href="#" class="brand-logo indigo-text text-lighten-5">Sub'Evasion</a>
+			<a href="#" class="sidenav-trigger indigo-text text-lighten-5" data-target="mobile-links">
+			  <i class="fas fa-bars"></i>
+			</a>
+      <ul class="right right">
+        <li><button id="darkTrigger" class="btn light-blue darken-3">Mode Grand Bleu</button></li>
+      </ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="transparent-text" href="">Envie d'essayer?</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Index.html" target="_blank">Acceuil</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Exploration.html" target="_blank" >Exploration</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Equipe.html" target="_blank" >Notre Equipe</a></li>
+			</ul>
+		  </div>
+		</nav>
+	  </div>
+	
+	  <ul class="sidenav" id="mobile-links">
+		<li><a class="blue-text text-darken-2" href="Index.html" target="_blank">Acceuil</a></li>
+		<li><a class="blue-text text-darken-2" href="Exploration.html" target="_blank">Exploration</a></li>
+		<li><a class="blue-text text-darken-2" href="Equipe.html" target="_blank">Notre Equipe</a></li>
+		<li><a class="blue-text text-darken-2" href="Contact.html" target="_blank">Envie d'essayer?</a></li>
+	  </ul>
+		</header>
+<!--On commence la partie à la fois la plus complexe et la plus rigolote: Le forulaire de contact!-->
+        <section id="Contact">
+            <div class="">
+                <form>
+                    <h2 class="center-align">Intéréssés?</h2> <!--J'espère que le design ne compte pas trop dans la note sinon  je suis mal partie...-->
+                    <h3 class="center-align">Remplissez ce formulaire et nous vous recontacterons!</h3>
+
+                    <!-- les noms prénoms sont toujours tricky à cause de la répartition 50-50 des div-->
+                    <div class="row">
+                        <div class="input-field col l6 s12">
+                            <i class="far fa-user prefix grey-text"></i>
+                          <input id="first_name" type="text" class="validate">
+                          <label for="first_name">Prénom</label>
+                        </div>
+                        <div class="input-field col l6 s12">
+                            <i class="far fa-user prefix grey-text"></i>
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Nom de Famille</label>
+                        </div>
+                      </div>
+
+                      <!--Pour éviter de demander l'âge directement on va juste utiliser un bouton oui/non. En plus cela montre l'étendue de nos compétences!-->
+                      <!-- Alores les boutons étant super mal expliqués et exploitables on va faore une petite liste descendante...-->
+                      <div class="input-field col s12">
+                        <i class="fas fa-flag-checkered prefix grey-text"></i>
+                        <select>
+                          <option value="" disabled selected>...</option>
+                          <option value="1">Oui</option>
+                          <option value="2">Non</option>
+                        </select>
+                        <label>Êtes-vous majeur?</label>
+                      </div>
+
+
+                    <!--L'email après les noms prénoms c'est toujours plus poli. Je pense aussi le mettre après l'âge. Voir même en dernier... Mais c'était la partie la plus favile à réutiliser.-->
+                    <div class="input-field">
+                        <i class="far fa-envelope fa-2x prefix grey-text"></i>
+                        <input type="email" id="email">
+                        <label for="email">Votre Email</label>
+                    </div>
+
+                    <!--SI et Seulement si j'ai du temps en rab j'installerai un calendrier car le changement des couleurs est horrible!-->
+
+                    <div class="input-field center">
+                        <button class="btn light-blue darken-4">Paré à plonger!</button>
+
+                    </div>
+                </form>
+            </div>
+            <div class="parallax-container">
+              <div class="parallax">
+                  <img src="IMG/JHR-4652.jpg" alt="" class="responsive-img">
+              </div>
+            </div>
+        </section>
+       
+
+
+        <footer class="light-blue darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="grey-text text-lighten-3">Mentions Légales</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://medical.ffessm.fr/ma-pratique-en-securite" target="_blank">Règles de sécurité</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://plongee.ffessm.fr/qu-est-ce-que-la-ctn" target="_blank">Nos accréditations</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://ripe.ffessm.fr/mapage2/autorisation-photo.pdf" target="_blank">Notre politique de droits à l'image</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col l6 s12">
+                        <h5 class="grey-text text-lighten-3">Suivez-nous!</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://fr-fr.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li> 
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>  
+                        </ul>                      
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright light-blue darken-3">
+                <div class="container center-align grey-text text-lighten-3">&copy; 1975-2021 Sub'Evasion</div>
+              </div>
+        </footer>
+
+    <!--Source du java compréssé-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+    	<!--Script pour le header!-->
+	<script>
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
+           $('.materialboxed').materialbox();
+          $('.parallax').parallax();
+          $('select').formSelect();
+          $("#darkTrigger").click(function(){
+    if ($("body").hasClass("dark")){
+        $("body").removeClass("dark");
+    }
+    else{
+        $("body").addClass("dark");
+    }
+        });
+        });
+      </script>
+
+    </Body>
+</html>

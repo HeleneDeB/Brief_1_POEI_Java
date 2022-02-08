@@ -1,0 +1,189 @@
+<!DOCTYPE html> <!--On précise que c'est un document Html-->
+<html>
+	<head>
+		<title>Sub'Evasion-Exploration</title>
+			<meta charset="utf-8"/> <!--On indique la nature du document et les caractères spéciaux, tel que les accents-->
+
+			<meta name="description" content="Sub'Evasion est un club de plongée sous-marine rassemblant passionnés débutants et chevronnés. Plongeons ensemble dans la joie la bonne humeur et les bulles!">
+			<meta name="keywords" content="Plongée sous-marine,club de plongée,sous-marin,poissons,FFESSM,CMAS,bouteilles,mer,océan,sport aquatique,bulles,palmes,masques,tubas,requins,baleines,corail">
+			<!-- Lien vers la feuille CSS-->
+			<link rel='stylesheet' href='feuilledestyle.css' type='text/css' />
+
+			<script src="https://kit.fontawesome.com/2b9bc48a55.js" crossorigin="anonymous"></script> <!--Restons fidèles à font awesome!-->
+
+			 <!-- Compiled and minified CSS -->
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Google Fonts liens-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+
+            			<!--Balisage CSS suplémentaire-->
+			<style>
+				body{
+					font-family:Mitr;
+          background-color: #e8eaf6;
+          color:#01579b;
+				}
+        .navbar{
+           font-family:Righteous;
+         }
+        /*Test du bouton jour nuit!*/
+        .dark {
+            background-color:#1565c0 ;
+            color: #e8eaf6;
+          }
+          .dark button {
+            background-color:#1565c0 ;
+            color: #e8eaf6;
+          }
+
+
+				@media screen and (max-width: 670px){
+					header{
+						min-height: 500px;
+						}
+					}
+				.parallax{
+					z-index:2;
+					}
+                h5{
+                    color:white;
+                }
+			
+			
+			</style>
+	</head>
+    <Body>
+
+        <header>
+			
+			<!--navbar-->
+	 <div class="navbar">
+		<nav class="nav-wrapper light-blue darken-4">
+		  <div class="container">
+		  <a href="#" class="brand-logo indigo-text text-lighten-5">Sub'Evasion</a>
+			<a href="#" class="sidenav-trigger indigo-text text-lighten-5" data-target="mobile-links">
+			  <i class="fas fa-bars"></i>
+			</a>
+      <ul class="right right">
+        <li><button id="darkTrigger" class="btn light-blue darken-3">Mode Grand Bleu</button></li>
+      </ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="transparent-text" href="">Exploration</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Index.html" target="_blank">Acceuil</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Equipe.html" target="_blank" >Notre Equipe</a></li>
+			  <li><a class="indigo-text text-lighten-5" href="Contact.html" target="_blank" >Envie d'essayer?</a></li>
+			</ul>
+		  </div>
+		</nav>
+	  </div>
+	
+	  <ul class="sidenav" id="mobile-links">
+		<li><a class="blue-text text-darken-2" href="Index.html" target="_blank">Acceuil</a></li>
+		<li><a class="blue-text text-darken-2" href="Exploration.html" target="_blank">Exploration</a></li>
+		<li><a class="blue-text text-darken-2" href="Equipe.html" target="_blank">Notre Equipe</a></li>
+		<li><a class="blue-text text-darken-2" href="Contact.html" target="_blank">Envie d'essayer?</a></li>
+	  </ul>
+		</header>
+
+        <section class="container section" id="explo">
+            <div class="row">
+                     <h2 class="center align">Nos sites de plongées</h2>
+                     <div class="col s12 l4">
+                      <img src="img/JHR-4664.jpg" alt="Poissons" class="responsive-img materialboxed">
+                      </div>
+                     <div class="col s12 l6 push-l1">
+                     <p class="valign-wrapper">Nous avons de la chance, l'océan Atlantique nous offre de nombreux sites juste à côté de notre centre! De nombreuses épaves sont déssimininées autour de l'île. Elles sont le refuge de nombreux poissons et autres habitants sous-marins.</p>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div>
+                     <div class="col s12 l6">
+                     <p>Selon la période de l'année, ou les marées, certains sites de plongées risquent de ne pas être accessibles. Si vous désirez plonger sur un site en particulier, contactez directement le club.</p>
+                     <p>Nos sites sont fragiles, particulièrement nos épaves. Nous exigeons de la part de nos plongeurs un grand respect du site et de ses habitants.</p>
+                     </div>
+                     <div class="col s12 l4 offset-l1">
+                        <img src="IMG/JHR-5043.jpg" alt="Algues" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 l12">
+                      <p> </p>
+                    </div>
+                     <div>
+                        <video class="responsive-video" controls>
+                            <source src="Video/Yeu.mp4" type="video/mp4">
+                          </video>
+                     </div>
+
+                </div>
+                <div class="carousel carousel-slider">
+                  <a class="carousel-item" href="#one!"><img src="IMG/JHR-4731.jpg" alt="Poisson 1"></a>
+                  <a class="carousel-item" href="#two!"><img src="IMG/JHR-4829.jpg" alt="Poisson 2"></a>
+                  <a class="carousel-item" href="#three!"><img src="IMG/JHR-4986.jpg" alt="Poisson 3"></a>
+                  <a class="carousel-item" href="#four!"><img src="IMG/JHR-4964.jpg" alt="Poisson 4"></a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="light-blue darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="grey-text text-lighten-3">Mentions Légales</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://medical.ffessm.fr/ma-pratique-en-securite" target="_blank">Règles de sécurité</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://plongee.ffessm.fr/qu-est-ce-que-la-ctn" target="_blank">Nos accréditations</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://ripe.ffessm.fr/mapage2/autorisation-photo.pdf" target="_blank">Notre politique de droits à l'image</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col l6 s12">
+                        <h5 class="grey-text text-lighten-3">Suivez-nous!</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://fr-fr.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li> 
+                            <li><a class="grey-text text-lighten-3 center-text" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>  
+                        </ul>                      
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright light-blue darken-3">
+                <div class="container center-align grey-text text-lighten-3">&copy; 1975-2021 Sub'Evasion</div>
+              </div>
+        </footer>
+
+
+    <!--Source du java compréssé-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+    	<!--Script pour le header!-->
+	<script>
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
+           $('.materialboxed').materialbox();
+          $('.parallax').parallax();
+          $("#darkTrigger").click(function(){
+    if ($("body").hasClass("dark")){
+        $("body").removeClass("dark");
+    }
+    else{
+        $("body").addClass("dark");
+    }
+        });
+        $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+        });
+      </script>
+
+    </Body>
+</html>
